@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(207, 205, 205);
+}
+
+#container {
+
+    background-color:white;
+    width: 33%;
+    height: 80%;
+    margin-top:150px;
+    margin-right:150px;
+    margin-bottom:150px;
+    margin-left:150px;
+    text-align: left;
+    display: block;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+article {
+
+    border: 1px solid rgb(223, 220, 220);
+}
+
+
+.navigation {
+    
+    width: 1200px;
+    height: 60px;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+    float: left;
+
+}
+
+li {
+      width: 100px;
+      height: auto;
+      display: inline;
+      align-items: left;
+      margin: 5px;
+      }
