@@ -1,18 +1,115 @@
 body {
+    width: auto;
+    height: auto;
     background-color: rgb(207, 205, 205);
+    margin: 0px;
+    background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    
 }
+
+header {
+    width: 100%;
+    height: 20%;
+
+
+
+}
+#portfolionav {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    float: left;
+    
+}
+
+#portfolionav ul{
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    
+}
+
+
+#portfolionav ul li {
+    width: auto;
+    height: 30px;
+    display: inline-block;
+    align-items: center;
+    margin: 5px 12px 5px 12px;
+
+    
+    }
+
+#pageheader {
+    width: 100%;
+    height: 120px;
+    margin: 0px;
+    float: left;
+
+}
+
+
+#pageheader nav {
+    width: 100%;
+    height: 90px;
+    background-color:rgb(14, 175, 224);
+    display:inline-block;
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+  
+    
+}
+
+#pageheader nav ul {
+    width: 100%;
+    height: 90px;
+    margin: 0px 0px 0px 342px; 
+    text-align: left;
+   
+    
+}
+
+
+#pageheader nav ul li {
+    width: 95px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    border: 1px solid rgb(10, 2, 2);
+    padding: 35px 0px 15px 0px;
+}
+
+
 
 #container {
 
-    background-color:white;
-    width: 33%;
-    height: 80%;
-    margin-top:150px;
+    
+    width: 100%;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+}
+
+#container main {
+    width: 45%;
+    height: auto;
+    margin-top:50px;
     margin-right:150px;
     margin-bottom:150px;
-    margin-left:150px;
-    text-align: left;
-    display: block;
+    margin-left:350px;
+    background-color:white;
+    
 }
 
 h2 {
@@ -22,25 +119,27 @@ h2 {
 article {
 
     border: 1px solid rgb(223, 220, 220);
+    margin: 1% 0% 1% 0%;
+
+
 }
 
 
-.navigation {
-    
-    width: 1200px;
-    height: 60px;
-    list-style: none;
-    padding: 5px;
-    margin: 5px;
-    text-align: right;
-    float: left;
 
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    }
+
+  a:hover, a:active {
+    color: orange;
+    text-decoration: none;
+    }
+
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(14, 173, 236);
+    text-align: center;
 }
-
-li {
-      width: 100px;
-      height: auto;
-      display: inline;
-      align-items: left;
-      margin: 5px;
-      }
