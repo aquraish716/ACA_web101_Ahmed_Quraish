@@ -1,0 +1,588 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+        background-repeat: repeat;
+        background-size: 100%;
+        overflow: auto;
+        width: 100%;
+    }
+  
+    header {
+        width: 100%;
+        height: 100px;
+        position: initial;
+    }
+    
+      main {
+        height: 70%;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 15% 20% 15%;
+      }
+        
+        .logo {
+          width: auto;
+          height: 75%;
+          margin: none;
+          float: left;
+        }
+        nav {
+            width: 100%;
+            height: 70px;
+            
+          }
+    
+        nav ul {
+          width: 100%;
+          height: 50px;
+          list-style: none;
+          padding: 5px;
+          margin: 5px 5px 5px 80px;
+          text-align: left;
+          float: left;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+        }
+    
+        nav li{
+          width: auto;
+          height: auto;
+          display: inline-block;
+          align-items: center;
+          margin: 16px 12px 16px 12px;
+          }
+    
+        #profile-pic {
+          
+          width: 200px;
+          height: 200px;
+          border-radius: 100%;
+          position: absolute;
+          left: 150px;
+          top: 200px;
+          border-radius: 60%;
+          }
+        
+        h1 {
+          color: orange;
+          font-size: 25px;
+          font-weight: bold;
+          position: absolute;
+          left: 170px;
+          top: 420px;
+          font-family:"Times New Roman", Times, serif;
+          }
+        
+        h2 {
+          font-family:"Times New Roman", Times, serif;
+          color: orange;
+          font-size: 16px;
+          font-weight: bold;
+          position: absolute;
+          left: 160px;
+          top: 450px;
+          font-family:"Times New Roman", Times, serif;
+          font-style: italic;
+        }
+        
+        .small-text {
+          
+          color:rgb(33, 96, 138, 0.89);
+          font-size: 15px;
+          text-align: left;
+          position: absolute;
+          left: 160px;
+          top: 750px;
+
+        }
+        
+        #portfolio {
+          width: 70%;
+          height: 7%;
+          font-size: 20px;
+          border-radius: 25px;
+          text-align: center;
+          border: 2px 2px 10px 2px solid black;
+          color: orange;
+          letter-spacing: 16px;
+          font-style: italic;
+          position: absolute;
+          left: 110px;
+          top: 500px;
+          font-family: "Times New Roman", Times, serif;
+          font-weight: bold;
+          background: rgba(33, 96, 138, 0.89);
+          text-align: center;
+          color: orange;
+          font-style: italic;
+        
+        }
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover, a:active {
+        color: orange;
+        text-decoration: none;
+    }
+    
+    
+    
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        overflow: auto;
+      }
+    
+      header {
+        width: 100%;
+        height: 100px;
+        
+    }
+    
+      main {
+        height: 70%;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 15% 20% 15%;
+      }
+        
+        .logo {
+          width: auto;
+          height: 100%;
+          margin: none;
+          float: left;
+        }
+        nav {
+            width: 100%;
+            height: 70px;
+            
+          }
+    
+        nav ul {
+          width: 100%;
+          height: 50px;
+          list-style: none;
+          padding: 5px;
+          margin: 5px 5px 5px 80px;
+          text-align: left;
+          float: left;
+          position: absolute;
+          left: 130px;
+          top: 0px;
+        }
+    
+        nav li{
+          width: auto;
+          height: auto;
+          display: inline-block;
+          align-items: center;
+          margin: 16px 12px 16px 12px;
+          }
+    
+        #profile-pic {
+          
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          position: absolute;
+          left: 250px;
+          top: 150px;
+          border-radius: 60%;
+          }
+        
+        h1 {
+          color: orange;
+          font-size: 35px;
+          font-weight: bold;
+          position: absolute;
+          left: 290px;
+          top: 460px;
+          
+          }
+        
+        h2 {
+          font-family:"Times New Roman", Times, serif;
+          color: orange;
+          font-size: 26px;
+          font-weight: bold;
+          position: absolute;
+          left: 260px;
+          top: 500px;
+        }
+        
+        .small-text {
+          
+          color:rgb(33, 96, 138, 0.89);
+          font-size: 15px;
+          text-align: left;
+          position: absolute;
+          left: 300px;
+          top: 750px;
+
+        }
+        
+        #portfolio {
+          width: 70%;
+          height: 7%;
+          font-size: 30px;
+          border-radius: 25px;
+          text-align: center;
+          border: 2px 2px 10px 2px solid black;
+          color: orange;
+          letter-spacing: 16px;
+          font-style: italic;
+          position: absolute;
+          left: 130px;
+          top: 550px;
+        
+        }
+
+    }
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        overflow: auto;
+      }
+    
+      header {
+        width: 100%;
+        height: 100px;
+        position: initial;
+    }
+    
+      main {
+        height: 70%;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+      }
+        
+        .logo {
+          width: auto;
+          height: 100%;
+          margin: none;
+          float: left;
+        }
+        nav {
+            width: 100%;
+            height: 70px;
+            
+          }
+    
+        nav ul {
+          width: 100%;
+          height: 50px;
+          list-style: none;
+          padding: 5px;
+          margin: 5px 5px 5px 80px;
+          text-align: left;
+          float: left;
+          position: absolute;
+          left: 200px;
+          top: 0px;
+        }
+    
+        nav li{
+          width: auto;
+          height: auto;
+          display: inline-block;
+          align-items: center;
+          margin: 16px 12px 16px 12px;
+          }
+    
+        #profile-pic {
+          
+          width: 350px;
+          height: 350px;
+          border-radius: 100%;
+          position: absolute;
+          left: 300px;
+          top: 140px;
+          }
+        
+        h1 {
+          color: orange;
+          font-size: 45px;
+          font-weight: bold;
+          position: absolute;
+          left: 320px;
+          top: 490px;
+          
+          }
+        
+        h2 {
+          font-family:"Times New Roman", Times, serif;
+          color: orange;
+          font-size: 36px;
+          font-weight: bold;
+          position: absolute;
+          left: 250px;
+          top: 540px;
+        }
+        
+        .small-text {
+          
+          color:rgb(33, 96, 138, 0.89);
+          font-size: 15px;
+          text-align: left;
+          position: absolute;
+          left: 380px;
+          top: 750px;
+    
+        }
+        
+        #portfolio {
+          width: 550px;
+          height: 7%;
+          font-size: 40px;
+          border-radius: 25px;
+          text-align: center;
+          border: 2px 2px 10px 2px solid black;
+          color: orange;
+          letter-spacing: 16px;
+          font-style: italic;
+          position: absolute;
+          left: 190px;
+          top: 590px;
+        
+        }
+}
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+     
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: auto;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    position: initial;
+}
+
+  main {
+    height: 70%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+    
+    .logo {
+      width: auto;
+      height: 100%;
+      margin: none;
+      float: left;
+    }
+    nav {
+        width: 100%;
+        height: 70px;
+        
+      }
+
+    nav ul {
+      width: 100%;
+      height: 50px;
+      list-style: none;
+      padding: 5px;
+      margin: 5px 5px 5px 80px;
+      text-align: left;
+      float: left;
+      position: absolute;
+      left: 350px;
+      top: 0px;
+    }
+
+    nav li{
+      width: auto;
+      height: auto;
+      display: inline-block;
+      align-items: center;
+      margin: 16px 12px 16px 12px;
+      }
+
+    #profile-pic {
+      
+      width: 350px;
+      height: 350px;
+      border-radius: 100%;
+      position: absolute;
+      left: 440px;
+      top: 140px;
+      }
+    
+    h1 {
+      color: orange;
+      font-size: 45px;
+      font-weight: bold;
+      position: absolute;
+      left: 470px;
+      top: 490px;
+      
+      }
+    
+    h2 {
+      font-family:"Times New Roman", Times, serif;
+      color: orange;
+      font-size: 36px;
+      font-weight: bold;
+      position: absolute;
+      left: 410px;
+      top: 540px;
+    }
+    
+    .small-text {
+      
+      color:rgb(33, 96, 138, 0.89);
+      font-size: 15px;
+      text-align: left;
+      position: absolute;
+      left: 530px;
+      top: 750px;
+
+    }
+    
+    #portfolio {
+      width: 550px;
+      height: 7%;
+      font-size: 40px;
+      border-radius: 25px;
+      text-align: center;
+      border: 2px 2px 10px 2px solid black;
+      color: orange;
+      letter-spacing: 16px;
+      font-style: italic;
+      position: absolute;
+      left: 350px;
+      top: 590px;
+    
+    }
+  }
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        overflow: auto;
+      }
+    
+      header {
+        width: 100%;
+        height: 100px;
+        position: initial;
+    }
+    
+      main {
+        height: 70%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+      }
+        
+        .logo {
+          width: auto;
+          height: 100%;
+          margin: none;
+          float: left;
+        }
+        nav {
+            width: 100%;
+            height: 70px;
+            
+          }
+    
+        nav ul {
+          width: 100%;
+          height: 50px;
+          list-style: none;
+          padding: 5px;
+          margin: 5px 5px 5px 80px;
+          text-align: left;
+          float: left;
+          position: absolute;
+          left: 420px;
+          top: 0px;
+        }
+    
+        nav li{
+          width: auto;
+          height: auto;
+          display: inline-block;
+          align-items: center;
+          margin: 16px 12px 16px 12px;
+          }
+    
+        #profile-pic {
+          width: 350px;
+          height: 350px;
+          border-radius: 100%;
+          position: absolute;
+          left: 500px;
+          top: 140px;
+          }
+        
+        h1 {
+          color: orange;
+          font-size: 45px;
+          font-weight: bold;
+          position: absolute;
+          left: 530px;
+          top: 490px;
+          
+          }
+        
+        h2 {
+          font-family:"Times New Roman", Times, serif;
+          color: orange;
+          font-size: 36px;
+          font-weight: bold;
+          position: absolute;
+          left: 470px;
+          top: 540px;
+        }
+        
+        .small-text {
+          
+          color:rgb(33, 96, 138, 0.89);
+          font-size: 15px;
+          text-align: left;
+          position: absolute;
+          left: 580px;
+          top: 750px;
+    
+        }
+        
+        #portfolio {
+          width: 550px;
+          height: 7%;
+          font-size: 40px;
+          border-radius: 25px;
+          text-align: center;
+          border: 2px 2px 10px 2px solid black;
+          color: orange;
+          letter-spacing: 16px;
+          font-style: italic;
+          position: absolute;
+          left: 390px;
+          top: 590px;
+          padding: 0px 0px 5px 20px;
+        
+        }
+    }

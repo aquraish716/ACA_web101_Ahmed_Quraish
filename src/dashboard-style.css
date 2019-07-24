@@ -1,0 +1,70 @@
+
+
+.greeting {
+    grid-area: "greeting";
+    background: grey;
+
+}
+
+.date_time {
+    grid-area: "date_time";
+    background: orange;
+
+}
+
+.calculator {
+    grid-area: "calculator";
+    background: rgb(206, 109, 109);
+
+}
+
+.todo_list {
+    grid-area: "todo_list";
+    background: rgb(139, 228, 88);
+
+}
+
+.event_countdown {
+    grid-area: "event_countdown";
+    background: rgb(221, 193, 68);
+
+}
+
+.calendar {
+    grid-area: "calendar";
+    background: rgb(95, 216, 224);
+
+}
+
+.sports_links {
+    grid-area: "sports_links";
+    background: rgb(164, 123, 231);
+
+}
+
+footer {
+    grid-area: "footer";
+    background: rgb(230, 134, 56);
+
+}
+
+.container {
+
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-areas:
+ 
+    "calculator"
+    "date_time"
+    "todo_list"
+    "greeting"
+    "event_countdown"
+    "calendar"
+    "sports_links"
+    "footer";
+      
+
+
+
+
+}
