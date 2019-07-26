@@ -1,70 +1,164 @@
+body {
+    width:100%;
+    height: auto;
+    background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=bench-carved-stones-cemetery-257360.jpg&fm=jpg);
+    background-size: 100%;
+    background-repeat: inherit;
+}
 
 
 .greeting {
-    grid-area: "greeting";
-    background: grey;
+    grid-area: greeting;
+    font-size: .9em;
+    color: rgb(252, 252, 252);
+    text-align: center;
 
 }
 
 .date_time {
-    grid-area: "date_time";
-    background: orange;
+    
+    grid-area: date_time;
+    font-size: .9em;
+    color: rgb(252, 252, 252);
+    text-align: center;
 
 }
 
 .calculator {
-    grid-area: "calculator";
-    background: rgb(206, 109, 109);
+    text-align: center;
+    grid-area: calculator;
+    font-size: 1em;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    background-color: rgb(211, 211, 211);
 
 }
 
 .todo_list {
-    grid-area: "todo_list";
-    background: rgb(139, 228, 88);
+    grid-area: todo_list;
+    display: inline-block;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
+    }
 
+.todo_list h2 {
+    padding-left: 1.5em;
 }
 
 .event_countdown {
-    grid-area: "event_countdown";
-    background: rgb(221, 193, 68);
+    grid-area: event_countdown;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
 
 }
 
 .calendar {
-    grid-area: "calendar";
-    background: rgb(95, 216, 224);
+    grid-area: calendar;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
 
 }
 
 .sports_links {
-    grid-area: "sports_links";
-    background: rgb(164, 123, 231);
+    grid-area: sports_links;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
+    text-align: center;
 
 }
 
 footer {
-    grid-area: "footer";
-    background: rgb(230, 134, 56);
+    grid-area: footer;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
+    text-align: center;
 
 }
 
 .container {
-
+    
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-areas:
- 
-    "calculator"
-    "date_time"
-    "todo_list"
     "greeting"
+    "date_time"
+    "calculator"
+    "todo_list"
     "event_countdown"
     "calendar"
     "sports_links"
     "footer";
       
+}
+#calculator {
+    text-align: center;
+    width: 100%;
+}
 
+td {
+    border: 1px solid black;
+    text-align: center;
+}
 
+.display {
+    border: 3px solid black;
+    text-align: center;
+    display: grid; 
+    grid-template-columns: 1fr;
+    background-color: aqua;
+}
 
-
+#row1 {
+    
+    list-style: none;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+      
+}
+#row2 {
+    
+    list-style: none;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+      
+}
+#row3 {
+    
+    list-style: none;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+      
+}
+#row4 {
+    
+    list-style: none;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+      
+}
+#row5 {
+    
+    list-style: none;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+      
 }
