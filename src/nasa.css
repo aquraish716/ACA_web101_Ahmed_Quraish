@@ -1,0 +1,271 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
+
+    grid-template-areas: 
+        "container"
+        "greyfooter";
+    width: 850px;
+    height: 794px;
+    margin: 0px;
+    
+
+    
+}
+
+
+.container {
+    background-image: url(cosmic.jpg);
+    background-size: 850px 450px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 450px;
+    grid-area: container;
+
+
+}
+
+.nasatitle {
+    width: 850px;
+    height: 450px;
+
+}
+
+.container h1 {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    padding-top: 1.3em;
+}
+
+footer {
+    width: 850px;
+    height: 324px;
+}
+
+.greyfooter {
+    width: 850px;
+    height: 324px;
+    display: flex;
+    flex-direction: row;
+    grid-area: greyfooter;
+    height: 100%;
+    font-size: 15px;
+    margin: 0px;
+    background-color: rgb(192, 190, 190);
+
+}
+h2 {
+    font-size: 18px;
+    width: 270px;
+    height: 1em;
+}
+.socialmedia {
+    width: 270px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-right: 20px;
+
+
+
+
+}
+ul {
+    width: 270px;
+    height: 300px;
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    margin-top: .5em;
+}
+
+.office_info {
+    width: 270px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+address {
+    line-height: 1.5em;
+}
+.contact_us {
+    width: 270px;
+    height: 324px;
+    display: inherit;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.name {
+    margin: 0px;
+
+}
+
+.message {
+    margin: 15px 0px 0px;
+
+}
+
+textarea {
+    width: 22em;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: rgb(59, 59, 59);
+    width: 60px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+body {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas: 
+        "container"
+        "greyfooter"    
+}
+
+.nasatitle {
+    width: 100%;
+    height: auto;
+}
+
+.greyfooter {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+.socialmedia {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    margin-top: .5em;
+}
+
+.office_info {
+    width: 270px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+address {
+    line-height: 1.5em;
+}
+.contact_us {
+    width: 270px;
+    height: auto;
+    display: inherit;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    }
+}
+
+
+/* Medium and up (Tablets) */
+@media (min-width: 577px) and (max-width: 851px) {
+    body {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1.5fr;
+        grid-template-areas: 
+            "container"
+            "greyfooter"    
+    }
+
+    .nasatitle {
+        width: 100%;
+        height: auto;
+    
+    }
+    .greyfooter {
+        
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .socialmedia {
+        width: 270px;
+        height: auto;
+        padding-left: 15px;
+        margin-right: 20px;
+        padding-bottom: 25px;
+    }
+    ul {
+        width: 100%;
+        height: auto;
+        list-style: none;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    ul li {
+        margin-top: .5em;
+    }
+    
+    .office_info {
+        width: 270px;
+        height: auto;
+        margin-right: 20px;
+        padding-left: 15px;
+        padding-bottom: 25px;
+    }
+    
+    address {
+        line-height: 1.5em;
+    }
+    .contact_us {
+        width: 270px;
+        height: auto;
+        display: inherit;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-bottom: 25px;
+        
+    }
+    
+        }
