@@ -1,9 +1,9 @@
 body {
     width:100%;
     height: auto;
-    background-image: url(https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?cs=srgb&dl=bench-carved-stones-cemetery-257360.jpg&fm=jpg);
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/TtcstKI/videoblocks-abstract-plexus-polygon-nodes-and-connections-form-network-for-visuals-vj-internet-presentations-motion-background-hi-tech-technology-science-engineering-medical-dashboard-seamless-loop_srp7yyfff_thumbnail-full01.png);
     background-size: 100%;
-    background-repeat: inherit;
+    background-repeat: repeat;
 }
 
 
@@ -11,45 +11,37 @@ body {
     grid-area: greeting;
     font-size: .9em;
     color: rgb(252, 252, 252);
-    text-align: center;
+    
 
 }
 
 .date_time {
-    
     grid-area: date_time;
     font-size: .9em;
     color: rgb(252, 252, 252);
-    text-align: center;
-
+    
 }
 
 .calculator {
-    text-align: center;
     grid-area: calculator;
     font-size: 1em;
     color: rgb(7, 6, 6);
-    text-align: center;
-    background-color: rgb(211, 211, 211);
+    color: white;
+    
 
 }
 
 .todo_list {
     grid-area: todo_list;
-    display: inline-block;
-    text-align: center;
     list-style-position: inside;
     font-size: 1.5em;
     color: rgb(252, 252, 252);
     }
 
-.todo_list h2 {
-    padding-left: 1.5em;
-}
+
 
 .event_countdown {
     grid-area: event_countdown;
-    text-align: center;
     font-size: 1.5em;
     color: rgb(252, 252, 252);
 
@@ -57,7 +49,6 @@ body {
 
 .calendar {
     grid-area: calendar;
-    text-align: center;
     font-size: 1.5em;
     color: rgb(252, 252, 252);
 
@@ -67,7 +58,6 @@ body {
     grid-area: sports_links;
     font-size: 1.5em;
     color: rgb(252, 252, 252);
-    text-align: center;
 
 }
 
@@ -75,7 +65,6 @@ footer {
     grid-area: footer;
     font-size: 1.5em;
     color: rgb(252, 252, 252);
-    text-align: center;
 
 }
 
@@ -94,71 +83,55 @@ footer {
     "footer";
       
 }
-#calculator {
+#calcContainer {
     text-align: center;
-    width: 100%;
-}
-
-td {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
+ 
+}
+#calcContainer ul{
+    display: flex;
     text-align: center;
+    list-style: none;
+    justify-content: center;
+    width: 350px;
+    margin: 0px;
+    
+    padding: 0px;
+    background-color: rgb(71, 70, 70);
+
+
+}
+#calcContainer ul li{
+    width: 4em;
+    margin: 0px 12px;
+
 }
 
 .display {
-    border: 3px solid black;
-    text-align: center;
-    display: grid; 
-    grid-template-columns: 1fr;
-    background-color: aqua;
+    border: 1px solid black;
+    width: 350px;
+    height: 3em;
+    background-color: rgb(241, 243, 95);
+    color: black;
+
 }
 
-#row1 {
-    
-    list-style: none;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    
-      
+.functions {
+    background-color: orange;
+    border: 1px solid white;
 }
-#row2 {
-    
-    list-style: none;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    
-      
+
+.numbers {
+    background-color: grey;
+    border: 1px solid white;
+
 }
-#row3 {
-    
-    list-style: none;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    
-      
-}
-#row4 {
-    
-    list-style: none;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-    
-      
-}
-#row5 {
-    
-    list-style: none;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    
-      
+
+.blank {
+    background-color: black;
+    border: 1px solid white;
+
 }
