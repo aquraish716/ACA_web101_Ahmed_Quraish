@@ -1,7 +1,7 @@
 body {
     width:100%;
     height: auto;
-    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/TtcstKI/videoblocks-abstract-plexus-polygon-nodes-and-connections-form-network-for-visuals-vj-internet-presentations-motion-background-hi-tech-technology-science-engineering-medical-dashboard-seamless-loop_srp7yyfff_thumbnail-full01.png);
+    background-image: url(/src/dashboard/dashboardbackground.jpg);
     background-size: 100%;
     background-repeat: repeat;
 }
@@ -10,66 +10,53 @@ body {
 .greeting {
     grid-area: greeting;
     font-size: .9em;
-    color: rgb(252, 252, 252);
-    
-
 }
 
 .date_time {
     grid-area: date_time;
     font-size: .9em;
-    color: rgb(252, 252, 252);
-    
-}
+    vertical-align: center;
+    }
 
 .calculator {
     grid-area: calculator;
     font-size: 1em;
     color: rgb(7, 6, 6);
-    color: white;
-    
-
 }
 
 .todo_list {
     grid-area: todo_list;
     list-style-position: inside;
     font-size: 1.5em;
-    color: rgb(252, 252, 252);
-    }
+     }
 
 
 
 .event_countdown {
     grid-area: event_countdown;
     font-size: 1.5em;
-    color: rgb(252, 252, 252);
-
+    justify-items: center;
+    align-items: center;
 }
 
 .calendar {
     grid-area: calendar;
     font-size: 1.5em;
-    color: rgb(252, 252, 252);
+    
 
 }
 
 .sports_links {
     grid-area: sports_links;
     font-size: 1.5em;
-    color: rgb(252, 252, 252);
-
-}
-
-footer {
-    grid-area: footer;
-    font-size: 1.5em;
-    color: rgb(252, 252, 252);
+    vertical-align: center;
 
 }
 
 .container {
-    
+    width: 100%;
+    height: auto;
+    text-align: center;
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -79,16 +66,15 @@ footer {
     "todo_list"
     "event_countdown"
     "calendar"
-    "sports_links"
-    "footer";
+    "sports_links";
       
 }
 #calcContainer {
-    text-align: center;
-    width: 350px;
+  
+    width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    align-items: center;
  
 }
 #calcContainer ul{
@@ -98,7 +84,7 @@ footer {
     justify-content: center;
     width: 350px;
     margin: 0px;
-    
+    border: 1px solid black;
     padding: 0px;
     background-color: rgb(71, 70, 70);
 
@@ -134,4 +120,142 @@ footer {
     background-color: black;
     border: 1px solid white;
 
+}
+
+@media (min-width: 768px) {
+
+
+    .container {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: inline-grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1fr);   
+        justify-content: center;
+    }
+    .greeting {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        
+    
+    }
+    .calculator {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        
+    
+    }
+    .date_time {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+    
+    
+    .todo_list {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 10;
+        }
+    
+    
+    
+    .event_countdown {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    
+    }
+    
+    .calendar {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 10;
+        
+    
+    }
+    
+    .sports_links {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 12;
+    }
+}
+    
+/* Medium and up (Tablets) */
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;  
+        justify-content: center;
+    }
+    .greeting {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+    
+    }
+    .calculator {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        
+    
+    }
+    .date_time {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    
+    .todo_list {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 14;
+        }
+    
+    
+    
+    .event_countdown {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    
+    }
+    
+    .calendar {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 10;
+        
+    
+    }
+    
+    .sports_links {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 14;
+    }
 }
