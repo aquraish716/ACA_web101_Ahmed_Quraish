@@ -13,21 +13,43 @@
           <header>
               <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
               <nav>
-                <label for="toggle">&#9776;</label>
+                <label for="toggle" class="togglelabel">&#9776;</label>
                 <input type="checkbox" id="toggle"/>
                 <ul>
-                  <li><a href="/myPortfolio/index.html">Home</a></li>
-                  <li><a href="/src/resume.html">Resume</a></li>
+                  <li><a href="../src/index.html">Home</a></li>
+                  <li><a href="/src/online_resume/resume.html">Resume</a></li>
                   <li><a href="/blog_page/index.html">My Blog</a></li>
-                  <li><a href="/src/contactResume.html">Contact Me</a></li>
+                  <li><a href="/src/online_resume/contactResume.html">Contact Me</a></li>
                 </ul>
               </nav>
           </header>
           <main>
+              <video src="../videos/quickvideo.mp4" loop="" controls=""></video>
               <img src="../images/myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
               <h1>Ahmed Quraish</h1>
               <h2>Student of Web Development</h2>
               <button id="portfolio">Portfolio</button>
+              <iframe width="400" height="215" src="https://www.youtube.com/embed/g8VRisX_4GU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <form action="" method="" class="moreinfo">
+                <h4 style="font-size: 18px;">Request more info</h4>
+                <ul>
+                  <li>
+                    <label for="name"> Enter Full Name:</label>
+                    <input type="text" name="name" id="name" required>
+                  </li>
+                  <li>
+                    <label for="email">Enter your email: </label>
+                    <input type="email" name="email" id="email" required>
+                  </li>
+                  <li>
+                    <label for="questions">Enter your question or concern: </label>
+                    <textarea name="questions" class="questions" cols="79" rows="7"></textarea>
+                  </li>
+                  <li>
+                    <input type="submit" value="Request Info!">
+                  </li>
+                </ul>
+              </form>
           </main>
           <footer>
             <div class="footer">
