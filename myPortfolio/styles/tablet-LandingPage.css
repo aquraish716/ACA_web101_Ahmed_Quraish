@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url(https://wallpaperspot.net/images/2018/12/19/cool-backgrounds-hd-2018-58.jpg);*/
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+    
+    .logo {
+      width: 125px;
+      height: 100px;
+      margin: none;
+      float: left;
+    }
+
+    nav ul {
+      width: 400px;
+      height: 50px;
+      list-style: none;
+      padding: 5px;
+      margin: 5px 5px 5px 350px;
+      text-align: left;
+      float: left;
+    }
+
+    nav li{
+      width: auto;
+      height: auto;
+      display: inline-block;
+      align-items: center;
+      margin: 16px 12px 16px 12px;
+      }
+
+        a:link, a:visited {
+          color: white;
+          text-decoration: none;
+          }
+
+        a:hover, a:active {
+          color: orange;
+          text-decoration: none;
+          }
+
+    #profile-pic {
+      
+      width: 300px;
+      height: 300px;
+      display: grid;
+      border-radius: 100%;
+      margin: 100px 10px 10px 110px;
+      border-radius: 60%;
+      grid-column: 2/3;
+      }
+    
+    h1 {
+      font-family:"Times New Roman", Times, serif;
+      color: orange;
+      font-size: 40px;
+      font-weight: bold;
+      grid-column: 2/3;
+      margin: 10px 10px 10px 130px;
+      }
+    
+    h2 {
+      font-family:"Times New Roman", Times, serif;
+      color: orange;
+      font-size: 25px;
+      font-weight: bold;
+      grid-column: 2/3;
+      margin: 10px 10px 10px 115px;
+      font-style: italic;
+    }
+    
+    .small-text {
+      
+      color:rgb(33, 96, 138, 0.89);
+      font-size: 15px;
+      margin: 130px 10px 10px 170px;
+      grid-column: 2/3;
+      text-align: left;
+    }
+    
+    #portfolio {
+      
+      margin: 10px 10px 10px 70px;
+      width: 70%;
+      height: 7%;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 25px;
+      background: rgba(33, 96, 138, 0.89);
+      padding: 30px 30px 50px 40px; 
+      text-align: center;
+      border: 2px 2px 10px 2px solid black;
+      color: orange;
+      letter-spacing: 16px;
+      font-style: italic;
+      grid-column: 2/3;
+    }
+    /* Small and up (Landscape Phones) */
+    @media (min-width: 576px) {
+
+      body {
+
+        width: 50%;
+        height: 50%;
+        
+        background-color: green;}
+
+        h1 {
+        
+          font-size: 20px;
+          font-weight: bold;
+          grid-column: 1/3;
+          margin: 10px 10px 10px 130px;
+          }
+        
+        h2 {
+          font-size: 15px;
+          font-weight: bold;
+          grid-column: 1/3;
+          margin: 10px 10px 10px 115px;
+          font-style: italic;
+        }
+      
+    
+        
+      
+      }
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+  body {
+  background-color: blue;
+}
+}
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+  
+  body {
+  background-color: orange;
+
+
+    }
+    
+    }
+/* Large and up (Desktops) */
+    @media (min-width: 992px) {
+      body {
+        background-color: rgb(255, 0, 85);
+    
+    }
+  }
+    /* Extra Large and up (Wide Screen Desktops) */
+    @media (min-width: 1200px) {
+      body {
+        background-color: rgb(210, 210, 228);
+      }
+
+    
+  }
