@@ -1,0 +1,321 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% 100%;
+    overflow: scroll;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #086c8d;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    grid-area: header;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    grid-area: main;
+    margin: 0px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    grid-area: footer;
+    margin: 0px;
+    justify-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    margin: 0px;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    line-height: 100%;
+    display: block;  
+}
+
+nav ul {
+    width: 80%;
+    height: 100%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    display: none;
+}
+
+nav ul li{
+    float: right;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 100%;
+}
+
+.togglelabel {
+    float: right;
+    width: 15%;
+    height: 25px;
+    margin: 15px 25px 0 0;
+    font-size: 2.5em;
+    line-height: 100%;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
+#toggle {
+    display: none;
+    width: 15%;
+    user-select: none;
+
+}
+
+#toggle:checked + ul {
+    display: block;
+    user-select: none;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: orange;
+    background-color: rgba(33, 96, 138, 0.89);
+    text-decoration: none;
+}
+
+#profile-pic {
+    text-align: center;    
+    width: 90%;
+    height: 100%;
+    border-radius: 60%;
+    margin: 0;
+    grid-area: profilepic;
+    padding: 0 0 0 1.4em;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:"Times New Roman", Times, serif;
+    margin: 0em 0em;
+    grid-area:h1;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:"Times New Roman", Times, serif;
+    font-style: italic;
+    margin: 0em 0em .5em;
+    grid-area: h2;
+}
+
+
+
+.small-text {
+    width: 180px;
+    height: 20px;
+    color:rgb(33, 96, 138, 0.89);
+    font-size: 15px;
+    text-align: right;
+    padding: 0;
+}
+
+.aboutinfo {
+    width: 100%;
+    height: 760px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr 10fr 1fr;
+    grid-template-areas: 
+        "header"
+        "h1"
+        "main"
+        "footer";
+}
+
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    main {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-area: main;
+        margin: 0px;
+        
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+}
+
+#toggle:checked + ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+nav ul {
+    width: 65%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    margin: .5em 0em 0em;
+    margin: 0;
+}
+
+}
+
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+        main {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-area: main;
+            margin: 0px;
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+}
+
+#toggle:checked + ul {
+    display: none;
+    align-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0em;
+}
+
+
+.togglelabel {
+    float: right;
+    width: 0%;
+    height: 0;
+    margin: 0;
+    font-size: 0;
+    line-height: 0%;
+    display: none;
+    cursor: none;
+}
+
+#toggle {
+    display: none;
+    width:0%;
+
+}
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-area: main;
+    margin: 0px;
+}
+
+
+nav {
+    width: 90%;
+    height: 100%;
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+    }
+
+
+nav ul {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    padding: 0 130px 0 0; 
+}
+
+nav ul li {
+    width: 140px;
+}
+
+nav li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 100%;
+}
+}
