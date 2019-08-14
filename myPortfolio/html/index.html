@@ -6,32 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../myPortfolio/styles/reset.css">
+    <link rel="stylesheet" href="../styles/animate.css">
     <link rel="stylesheet" href="../styles/newstyle.css">
   </head>
   <body>
     <div class="container">
           <header>
-              <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
-              <nav>
+              <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo animated flash faster" alt="austin coding academy logo">
+              <nav >
                 <label for="toggle" class="togglelabel">&#9776;</label>
                 <input type="checkbox" id="toggle"/>
-                <ul>
-                  <li><a href="../html/index.html">Home</a></li>
-                  <li><a href="/src/online_resume/resume.html">Resume</a></li>
-                  <li><a href="/blog_page/index.html">My Blog</a></li>
-                  <li><a href="../html/contactPage.html">Contact Me</a></li>
-                  <li><a href="../html/aboutPage.html">About Page</a></li>
+                <ul class="animated flipInX delay-1s">
+                  <li class="animated shake delay-2s"><a href="../html/index.html">Home</a></li>
+                  <li class="animated shake delay-2s"><a href="/src/online_resume/resume.html">Resume</a></li>
+                  <li class="animated shake delay-2s"><a href="/blog_page/index.html">My Blog</a></li>
+                  <li class="animated shake delay-2s"><a href="../html/contactPage.html">Contact Me</a></li>
+                  <li class="animated shake delay-2s"><a href="../html/aboutPage.html">About Page</a></li>
                 </ul>
               </nav>
           </header>
           <main>
-              <video src="../videos/quickvideo.mp4" loop="" controls=""></video>
-              <img src="../images/myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
-              <h1>Ahmed Quraish</h1>
-              <h2>Student of Web Development</h2>
-              <button id="portfolio">Portfolio</button>
-              <iframe width="400" height="215" src="https://www.youtube.com/embed/g8VRisX_4GU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <form action="" method="" class="moreinfo">
+              <video src="../videos/quickvideo.mp4" loop="" controls="" class="animated bounceInLeft"></video>
+              <div class=" welcome animated bounceOutRight slower">Welcome!</div>
+              <img src="../images/myProfilePic.jpg" id="profile-pic" alt="Head shot of Me" class="animated flipInX delay-1s">
+              <h1 class="animated slideInDown">Ahmed Quraish</h1>
+              <h2 class="animated lightSpeedIn">Student of Web Development</h2>
+              <button id="portfolio" class="animated lightSpeedIn">Portfolio</button>
+              <iframe width="400" height="215" src="https://www.youtube.com/embed/g8VRisX_4GU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="animated bounceInRight"></iframe>
+              <form action="" method="" class="moreinfo animated slideInUp">
                 <h4 style="font-size: 18px;">Request more info</h4>
                 <ul>
                   <li>
@@ -53,7 +55,7 @@
               </form>
           </main>
           <footer>
-            <div class="footer">
+            <div class="footer animated flash">
               <a class="small-text" href="https://austincodingacademy.com/">© Austin Coding Academy</a></footer>
             </div>
     </div>
