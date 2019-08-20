@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../images/portbackground.jpg);
+    background-image: url(../images/portback2.jpg);
     background-size: cover;
+    background-position: center;
     overflow: scroll;
     width: 100%;
     height: auto;
@@ -15,6 +16,7 @@ header {
     height: 100%;
     grid-area: header;
     margin: 0px;
+    color: orange;
 }
 
 main {
@@ -49,7 +51,10 @@ footer {
     text-align: center;
     float: left;
     position: absolute;
-    top: 2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     
 }
 
@@ -277,23 +282,30 @@ form {
 
 /* Small and up (Landscape Phones) */
 @media (min-width: 576px) {
-    main {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-area: main;
-        margin: 0px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr .2fr .2fr .2fr 1fr 1fr;
+
+
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-area: main;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .2fr .2fr .2fr 1fr 1fr;
 }
 
 .welcome {
+    height: 200px;
+    width: 200px;
     font-size: 60px;
     color: white;
     text-align: center;
     float: left;
     position: absolute;
     top: 2em;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -391,7 +403,7 @@ iframe {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: black;
+    color: white;
 }
 .moreinfo ul li {
     list-style: none;
@@ -513,7 +525,7 @@ iframe {
     grid-column: 2/3;
     grid-row: 5/6;
     font-size: 15px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -525,7 +537,7 @@ iframe {
     width: 100%;
     height: 100%;
     font-size: 15px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -539,7 +551,7 @@ iframe {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .moreinfo ul li {
@@ -565,7 +577,7 @@ main {
 
 .welcome {
     font-size: 120px;
-    top: 1em;
+    top: 0;
     
 }
 
@@ -643,7 +655,7 @@ iframe {
     grid-column: 2/3;
     grid-row: 5/6;
     font-size: 15px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -655,7 +667,7 @@ iframe {
     width: 100%;
     height: 100%;
     font-size: 15px;
-    color: black;
+    color: white;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -668,7 +680,7 @@ iframe {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .moreinfo ul li {
