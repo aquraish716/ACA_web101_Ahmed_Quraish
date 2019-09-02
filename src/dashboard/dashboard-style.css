@@ -28,7 +28,17 @@ body {
     grid-area: todo_list;
     list-style-position: inside;
     font-size: 1.5em;
-     }
+}
+
+.myLocationDiv {
+    grid-area: myLocation;
+}
+
+#my-coordinates {
+    font-size: 1em;
+    height: 10px;
+    margin: 0;
+}
 
 
 
@@ -67,15 +77,12 @@ body {
     "event_countdown"
     "calendar"
     "sports_links";
-      
 }
 #calcContainer {
-  
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 }
 #calcContainer ul{
     display: flex;
@@ -87,8 +94,6 @@ body {
     border: 1px solid black;
     padding: 0px;
     background-color: rgb(71, 70, 70);
-
-
 }
 #calcContainer ul li{
     width: 4em;
@@ -161,12 +166,10 @@ body {
     .todo_list {
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 6;
+        grid-row-start: 7;
         grid-row-end: 10;
-        }
-    
-    
-    
+}
+
     .event_countdown {
         grid-column-start: 2;
         grid-column-end: 3;

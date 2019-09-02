@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Main Dashboard</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="reset.css">
+    
+    
     <link rel="stylesheet" href="dashboard-style.css">
-  </head>
-  <body>
-      <div class="container">
+</head>
+<body>
+    <div class="container">
             <div class= "greeting">
                 <h1>Hello, Ahmed! <br></h1>
                 <h2>Quote of the day: No one is perfect, and criticism is always welcome and expected. -Amitabh Bachchan</h2>
             </div>
-              
             <div class= "date_time">
                 <h1>Thursday, July 25th 2019</h1>
                 <h2>8:45 PM</h2>
+                <div class="myLocationDiv">
+                        <button onClick="myLocation()">Get Location </button>
+                        <p id="my-coordinates"></p>
+                </div>
             </div>
-          
             <div class= "calculator">
                 <p>Calculator</p>
                 <div id="calcContainer">
@@ -70,7 +73,6 @@
                 </ul>
 
             </div>
-
             <div class= "event_countdown">
                 <p>Event Countdown</p>
 
@@ -88,5 +90,8 @@
 
     
         </div>
-  </body>
+
+        <script src="/src/dashboard/dashboard.js"></script>
+        <script src="/src/jquery.js"></script>
+</body>
 </html>
